@@ -8,7 +8,6 @@
 </head>
 <body>
 
-    <!-- 選択肢を作る -->
     <!-- 選択結果によって色が変わる -->
         <!-- 日本地図を表示させる -->
         <!-- 日本地図の該当箇所の色を変える -->
@@ -20,8 +19,170 @@
         <!-- UIUX考える -->
          <!-- レスポンシブ対応＋ -->
 
+<!-- 選択肢を作る -->
+<table>
+    <input type="search">
+    <input type="datetime-local" name="" id="">
+    <input type="file" name="" id="">
+    <input type="file" name="" id="">
+    <input type="image" src="" alt="">
+    <input type="number" name="" id="">
+    <input type="range" name="" id="">
+    <input type="reset" value="">
+    <input type="search" name="" id="">
+    <input type="submit" value="">
+    <input type="url" name="" id="">
+    <tbody>
+        <tr class="">
+            <th class="">都道府県</th>
+            <th class="">居住　住んだ</th>
+            <th class="">訪問　歩いた</th>
+            <th class="">接地　降り立った</th>
+            <th class="">通過　通過した</th>
+            <th class="">未踏　行ってない</th>
+        </tr>
+        <tr class="">
+            <td class="">福岡</td>
+            <td class="">
+                <input type="radio" name="kyushu1" value="visit4">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu1" value="visit3">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu1" value="visit2">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu1" value="visit1">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu1" value="visit0">
+            </td>
+        </tr>
+        <tr class="">
+            <td class="">佐賀</td>
+            <td class="">
+                <input type="radio" name="kyushu2" value="visit4">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu2" value="visit3">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu2" value="visit2">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu2" value="visit1">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu2" value="visit0">
+            </td>
+        </tr>
+        <tr class="">
+            <td class="">長崎</td>
+            <td class="">
+                <input type="radio" name="kyushu3" value="visit4">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu3" value="visit3">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu3" value="visit2">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu3" value="visit1">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu3" value="visit0">
+            </td>
+        </tr>
+        <tr class="">
+            <td class="">熊本</td>
+            <td class="">
+                <input type="radio" name="kyushu4" value="visit4">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu4" value="visit3">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu4" value="visit2">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu4" value="visit1">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu4" value="visit0">
+            </td>
+        </tr>
+        <tr class="">
+            <td class="">大分</td>
+            <td class="">
+                <input type="radio" name="kyushu5" value="visit4">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu5" value="visit3">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu5" value="visit2">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu5" value="visit1">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu5" value="visit0">
+            </td>
+        </tr>
+        <tr class="">
+            <td class="">宮崎</td>
+            <td class="">
+                <input type="radio" name="kyushu6" value="visit4">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu6" value="visit3">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu6" value="visit2">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu6" value="visit1">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu6" value="visit0">
+            </td>
+        </tr>
+        <tr class="">
+            <td class="">鹿児島</td>
+            <td class="">
+                <input type="radio" name="kyushu7" value="visit4">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu7" value="visit3">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu7" value="visit2">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu7" value="visit1">
+            </td>
+            <td class="">
+                <input type="radio" name="kyushu7" value="visit0">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-
-    
+        
 </body>
+
+
+<script>
+    $(".bb").on("click", function () {
+        // inputタグ、textareaタグ以外では、お客様が入力できるタグにならないので注意
+        const cc = $(".aa").val();
+        console.log(cc, '入力チェック')
+    })
+
+</script>
+
+
+
 </html>
