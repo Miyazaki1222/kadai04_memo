@@ -1,6 +1,38 @@
 .select {
-    margin: 0 auto;
+  margin: 0 auto;
+  max-width: 920px;
+  max-height: 300px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  overflow: auto;
+  * {
+    box-sizing: border-box;
+  }
+  table {
+    border-spacing: 0;
+    width: 100%;
+    th, td {
+      min-width: 6rem;
+      max-height: 2rem;
+      min-height: 2rem;
+      line-height: 2rem;
+      text-align: center;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+    }
+    th {
+      background-color: yellowgreen;
+      position: sticky;
+      top: 0;
+      text-align: center;
+    }
+  }
 }
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
 
 .map
 {
